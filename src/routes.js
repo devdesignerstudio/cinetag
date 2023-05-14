@@ -14,7 +14,6 @@ function AppRoutes() {
             <Route index element={<Start />}></Route>
             <Route path="favorites" element={<Favorites />}></Route>
             <Route path=":id" element={<Player />}></Route>
-            <Route path="favorites/:id" element={<Player />}></Route>
             <Route path="*" element={<NotFound />}></Route>
           </Route>
         </Routes>
